@@ -1,0 +1,25 @@
+{
+  "name": "rtgtservice",
+  "version": "1.0.0",
+  "description": "REST Service for GPS tracking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swadeepreddy/rtgtservice.git"
+  },
+  "author": "Swadeepreddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swadeepreddy/rtgtservice/issues"
+  },
+  "homepage": "https://github.com/Swadeepreddy/rtgtservice#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mongojs": "^2.4.0",
+    "restify": "^4.0.4"
+  }
+}
